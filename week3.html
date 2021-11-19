@@ -38,11 +38,20 @@
         	vertical-align: middle;
             }
             figure caption {
-            	font-size: medium;
-            	vertical-align: middle;
+            font-size: medium;
+           	vertical-align: left;
             }
-            
+            .container {
+            position: relative;
+            text-align: center;
+            color: white;
+            }
 
+           .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+           }
 
  		</style>
  </head>
@@ -50,33 +59,33 @@
 
  		<div class="container">
 		<img src="images/h_img.jpg" alt="picture" width="100%">
-		 <div class="centered"><h2>WELCOME TO DELANI STUDIO</h2><br><h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIROMENT</h6></div>
-	</div>
+    	<div class="centered"><h2>WELCOME TO DELANI STUDIO</h2><br><h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIROMENT</h6></div>
+	    </div>
 
-	<h2>ABOUT US;<h2>
+       <div>  
+  	    <h2>ABOUT US;<h2>
 		<p>when you work with us, you are part of a team of committed collaborators. all aspects of our software development process are intergrated and agile.</p><P>our approach unifies design, development and product management to create exceptional products.</P><P>we start each project by understanding your business goals, the user's needs and the product requirements.</P><p>then we help translate them into effective and elegant solutions.</p>
 		<br>
 		<br>
+	</div>
 
-
-        <div class="container">
-        	<img src="images/s_image.jpg" alt="picture" width="100%">
-        	<div class="top-left"><h3>SERVICES;</h3><br><P>Before we sign a contract or write a code of line, our team will spend the necessary time needed to understand your product vision.</P><p>the outcome of this scoping session is a proposal or a high-level statement of work</p><p>based on your requirements, we can provide a complete offering or just the pieces you needed.</p></div>
-        </div>
-
+      <div class="container">
+      	<img src="images/s_image.jpg" alt="picture" width="100%">
+        <div class="bottom-left"> <h3>SERVICES;</h3><P>Before we sign a contract or write a code of line, our team will spend the necessary time needed to understand your product vision.</P><p>the outcome of this scoping session is a proposal or a high-level statement of work</p><p>based on your requirements, we can provide a complete offering or just the pieces you needed.</p></div>
+      </div>
 	    
 	  
-
+    <div>
 	<h2>WHAT WE DO;</h2>
-	
 	<img src="images/design_icon.png">
 	<figcaption>design</figcaption>
 	<img src="images/dev_icon.png">
 	<figcaption>development</figcaption>
 	<img src="images/product_icon.png">
 	<figcaption>product management</figcaption>
-
-
+    </div>
+    
+    <div>
 	<h2>portifolio</h2>
 	<img src="images/work1.jpg">
 	<img src="images/work2.jpg">
@@ -86,21 +95,23 @@
 	<img src="images/work6.jpg">
 	<img src="images/work7.jpg">
 	<img src="images/work8.jpg">
-
+    </div>
 	
-     <div class="container">
-     	<img src="images/c_image.jpg" alt="picture" width="100%">
-	   <div class="centered"><h2>CONTACT US;</h2>
+    <div class="container">
+    	<img src="images/c_image.jpg" alt="picture" width="100%" text-align="center">
+      <div class="top-left"><h2>CONTACT US;</h2>
+    <form>
 	<form action="/action_page.php">
-  <label for="email">Enter your email:</label>
-  <input type="email" id="email" name="email">
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email">
 
-  <label for="name">Enter your name:</label>
-  <input type="name" id="name" name="name">
-</form>
+    <label for="name">Enter your name:</label>
+    <input type="name" id="name" name="name">
+    </form>
+    </div>
 </div>
     
-
+    <div>
     <img src="images/stumble_upon.png">
     <img src="images/you_tube.png">
     <img src="images/g_plus.png">
@@ -111,6 +122,7 @@
     <img src="images/behance.png">
     <img src="images/skype.png">
     <img src="images/pinterest.png">
+    </div>
        
  </body>
  </html> 
