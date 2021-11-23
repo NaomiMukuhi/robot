@@ -25,9 +25,11 @@
  			h6 {
  			font-size: medium;
  	        font-family: cursive;
+          text-align: center;
  			}
  			p {
  			font-size: large;
+      text-align: center;
  			}
  			.top-left {
             position: absolute;
@@ -77,11 +79,11 @@
 	  
     <div>
 	<h2>WHAT WE DO;</h2>
-	<img src="images/design_icon.png">
+	<img src="images/design_icon.png" display="inline";>
 	<figcaption>design</figcaption>
-	<img src="images/dev_icon.png">
+	<img src="images/dev_icon.png" display="inline";>
 	<figcaption>development</figcaption>
-	<img src="images/product_icon.png">
+	<img src="images/product_icon.png" display="inline";>
 	<figcaption>product management</figcaption>
     </div>
     
@@ -104,9 +106,14 @@
 	<form action="/action_page.php">
     <label for="email">Enter your email:</label>
     <input type="email" id="email" name="email">
-
+    <br>
     <label for="name">Enter your name:</label>
     <input type="name" id="name" name="name">
+    <br>
+    <textarea rows="8" cols="70" name="comment" form="usrform">
+     Enter text here...</textarea>
+     <br>
+     <input type="submit">
     </form>
     </div>
 </div>
@@ -122,6 +129,11 @@
     <img src="images/behance.png">
     <img src="images/skype.png">
     <img src="images/pinterest.png">
+    </div>
+
+    <div>
+      <h6>delani studio</h6>
+      <p>2019</p>
     </div>
        
  </body>
